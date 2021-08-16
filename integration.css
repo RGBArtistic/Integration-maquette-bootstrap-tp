@@ -1,0 +1,380 @@
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  padding-top: 100px !important;
+}
+
+h1, header h2 {
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+}
+
+h2, h3 {
+  font-family: 'Orbitron', sans-serif;
+  margin-bottom: 30px !important;
+}
+
+.bloc-shadow {
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.28);
+}
+
+.fond-gris {
+  background-color: #2b2b2b;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-orange {
+  color: #d47720;
+}
+
+.text-size-1-2em {
+  font-size: 1.1em;
+}
+
+/* __________________Nav___________________ */
+
+.custom-nav {
+  color: #d47720 !important;
+  background-color: #2b2b2b;
+}
+
+.custom-nav-color {
+  color: #d47720 !important;
+  border: 1px solid transparent;
+}
+
+.custom-nav-color:hover {
+  color: #d47720 !important;
+  border: 1px solid #d47720;
+  transition: 0.3s;
+}
+
+.bouton-nav {
+  color: #d47720 !important;
+  border: 1px solid transparent !important;
+}
+
+.bouton-nav:hover {
+  border: 1px solid #d47720 !important;
+  transition: 0.3s;
+}
+
+.hambourger {
+background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(212, 119, 32, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+
+
+  /* __________________Menu Déroulant___________________ */
+
+
+/* __________________Header___________________ */
+header .container {
+  min-height: 400px;
+}
+
+header .header-bouton {
+  display: block;
+  margin-top: 30px;
+  padding: 10px 20px;
+  color: #d47720;
+  border: 0;
+  background-color: transparent;
+  text-transform: uppercase;
+  border: 1px solid #2b2b2b;
+}
+
+.header-bouton:hover, .video-bouton:hover {
+  border: 1px solid #d47720;
+  transition: 0.3s;
+}
+
+.spacer {
+  height: 280px;
+}
+
+.custom-header {
+  background-color: #2b2b2b;
+  min-height : 300px;
+}
+.spacer {
+  display: none;
+}
+
+.media-modif-p1 {
+  min-height: 200px;
+}
+
+@media (min-width: 576px) {
+  .custom-header {
+    min-height : 500px;
+  }
+  .spacer {
+    display: block;
+    height: 100px;
+  }
+  h1 {
+    margin-bottom: 50px !important;
+  }
+  header .header-bouton {
+    margin-top: 20px;
+  }
+/*____________Catégories P1_______________*/
+  .media-modif-p1 {
+    min-height: 180px;
+  }
+}
+
+@media (min-width: 768px) {
+  .custom-header {
+    min-height : 600px;
+  }
+  .spacer {
+    display: block;
+    height: 200px;
+  }
+  header .header-bouton {
+    margin-top: 50px;
+  }
+  .media-modif-p1 {
+    min-height: 300px; 
+  }
+  .fond-orange {
+    background-image: url(image/fond_orange.png);
+    background-repeat: repeat-x;
+    background-position: 0 50%; 
+} 
+}
+
+@media (min-width: 992px) {
+  .custom-header {
+    min-height : 600px;
+  }
+  .spacer {
+    display: block;
+    height: 200px;
+  }
+  header .header-bouton {
+    margin-top: 50px;
+  }
+  .media-modif-p1 {
+    min-height: 390px;  }
+}
+
+@media (min-width: 1200px) {
+  .custom-header {
+    min-height : 600px;
+  }
+  .spacer {
+    display: block;
+    height: 200px;
+  }
+  header .header-bouton {
+    margin-top: 50px;
+  }
+  .media-modif-p1 {
+    min-height: 335px;  }
+}
+/*_______________Partie 1____________*/
+
+.illu-tool {
+  display: block;
+  margin: 50px auto;
+}
+
+.espace-p1 {
+  margin-top: 100px;
+}
+
+
+.h3-p1 {
+  font-size: 1.3em;
+  margin-top: 20px;
+}
+
+/*____________________Niveaux___________________*/
+
+.fond-progress{
+  height: 3px;
+  background-color: #f4f4f4;
+}
+
+.niveau10 {
+  height: 3px;
+  background-color: #d47720;
+  width: 10%;
+}
+
+.niveau90 {
+  height: 3px;
+  background-color: #d47720;
+  width: 90%;
+}
+
+.niveau50 {
+  height: 3px;
+  background-color: #d47720;
+  width: 50%;
+}
+
+.niveau80 {
+  height: 3px;
+  background-color: #d47720;
+  width: 80%;
+}
+
+.niveau20 {
+  height: 3px;
+  background-color: #d47720;
+  width: 20%;
+}
+
+.niveau100 {
+  height: 3px;
+  background-color: #d47720;
+  width: 100%;
+}
+
+.niveau60 {
+  height: 3px;
+  background-color: #d47720;
+  width: 60%;
+}
+
+.niveau70 {
+  height: 3px;
+  background-color: #d47720;
+  width: 70%;
+}
+
+/*____________________Nombre créa__________________*/
+
+.haut-p2{
+  min-height: 200px;
+}
+
+.fond-p2 { 
+  background-color: #2b2b2b;
+  min-height: 200px;
+}
+
+.custom-rea-p2 {
+  background-color: #fff;
+  vertical-align: center;
+  text-align: center;
+}
+
+.text2-p2 {
+  text-transform: uppercase;
+}
+
+.text1-p2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.2em;
+  color: #d47720;
+  font-weight: bold;
+}
+
+/*_____________________Partie 2_________________*/
+
+.bloc-pf-b {
+  height: 300px;
+  background-color: #2b2b2b;
+}
+
+.bloc-pf-g {
+  height: 300px;
+  background-color:#f4f4f4;
+}
+
+.bord-p3 {
+  border-top: solid 1px #2b2b2b;
+  border-bottom: solid 1px #2b2b2b;
+}
+
+.logo-noir {
+  width: 90px;
+  display: block;
+}
+
+.video-bouton {
+  padding: 10px 20px;
+  color: #d47720;
+  background-color: transparent;
+  text-transform: uppercase;
+  border: 1px solid #2b2b2b;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*________________Partie 3____________*/
+
+.photo-p3 {
+  display: block;
+}
+
+/*________________Partie 4_____________________*/
+
+.logo-blanc {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+}
+
+/*________________Footer_____________________*/
+
+.logo-footer {
+  width: 70px;
+}
+
+.url-footer {
+  display: block;
+  color: #fff;
+}
+
+.url-footer:hover {
+  display: block;
+  color: #d47720;
+  border-bottom: #d47720;
+}
+
+footer .header-bouton {
+  display: block;
+  color: #d47720;
+  border: 0;
+  background-color: transparent;
+  text-transform: uppercase;
+  border: 1px solid #2b2b2b;
+  font-size: 13px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.mail-foot:hover {
+  text-decoration: none;
+}
+
+.full-div {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.icon-foot {
+  font-size: 3em;
+}
+
+.icon-foot:hover {
+  color: #d47720;
+  transition: 0.3s;
+}

@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf8" />
+    <meta name="viewport" content="width=divice-width, initial-scale=1" />
+    <title>Intégration d'un site à partir d'une maquette</title>
+    <meta name="description" content="Description du contenu de la page" />
+    <link href="integration.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0683264d5c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <header id="haut" class="custom-header position-relative">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top custom-nav">
+            <a class="mx-4 navbar-brand" href="#haut"><img src="image/logo.png" alt="logo" class="logo-nav" /></a>
+            <button class="navbar-toggler bouton-nav justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon hambourger"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link custom-nav-color text-center px-3" href="#services">Nos services</a>
+                    <a class="nav-item nav-link custom-nav-color text-center px-3" href="#portfolio">Le portfolio</a>
+                    <a class="nav-item nav-link custom-nav-color text-center px-3" href="#equipe">L'équipe</a>
+                    <a class="nav-item nav-link custom-nav-color text-center px-3" href="#">Contacts</a>
+                </div>
+            </div>
+        </nav>
+        </div>
+        <div class="container">
+            <div class="spacer"></div>
+            <h1 class="text-center h1-header">Design come to those who wait</h1>
+            <h2 class="text-center h2-header">Je suis un petit texte explicatif</h2>
+            <input class="mx-auto header-bouton" type="button" value="En savoir plus">
+        </div>
+    </header>
+
+    <main class="container-fluid">
+        <div>
+            <!--__________________Partie 1____________________-->
+            <div class="container text-center">
+                <!--__________________Entête____________________-->
+                <div>
+                    <img class="illu-tool" src="image/services_web.png" alt="illustration" id="services">
+                    <h2>Les services proposés</h2>
+                    <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium
+                        ut
+                        lacinia in, elementum id enim. Donec sollicitudin molestie malesuada</p>
+                </div>
+                <!--__________________4 Blocs____________________-->
+                <div class="row espace-p1">
+                    <!--__________________Catégorie 1____________________-->
+                    <div class="col-lg-3 col-md-6 col-12 p-2">
+                        <div class="media-modif-p1 bloc-shadow p-3">
+                            <img class="" src="image/imprimante_graphic.png" alt="Design Graphique" />
+                            <h3 class="h3-p1">Design Graphique</h3>
+                            <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisqus velit nisi,
+                                pretium
+                                ut
+                                lacinia in, elementum id enim. Donec sollicitudin</p>
+                        </div>
+                        <div class="bloc-shadow p-3 mt-2">
+                            <p class="text-left">PS</p>
+                            <div class="fond-progress">
+                                <div class="niveau90"></div>
+                            </div>
+                            <p class="text-left">AI</p>
+                            <div class="fond-progress">
+                                <div class="niveau90"></div>
+                            </div>
+                            <p class="text-left">ID</p>
+                            <div class="fond-progress">
+                                <div class="niveau90"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--__________________Catégorie 2____________________-->
+                    <div class="col-lg-3 col-md-6 col-12 p-2">
+                        <div class="media-modif-p1 bloc-shadow p-3">
+                            <img src="image/rouleau_web_design.png" alt="Web Design">
+                            <h3 class="h3-p1">Web Design</h3>
+                            <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisqus velit nisi,
+                                pretium
+                                ut
+                                lacinia in, elementum id enim. Donec sollicitudin</p>
+                        </div>
+                        <div class="bloc-shadow p-3 mt-2">
+                            <p class="text-left">UI</p>
+                            <div class="fond-progress">
+                                <div class="niveau70"></div>
+                            </div>
+                            <p class="text-left">UX</p>
+                            <div class="fond-progress">
+                                <div class="niveau70"></div>
+                            </div>
+                            <p class="text-left">Responsive</p>
+                            <div class="fond-progress">
+                                <div class="niveau80"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--__________________Catégorie 3____________________-->
+                    <div class="col-lg-3 col-md-6 col-12 p-2">
+                        <div class="media-modif-p1 bloc-shadow p-3">
+                            <img src="image/ecran_pc_web_developpement.png" alt="Web Développement">
+                            <h3 class="h3-p1">Web Developpement</h3>
+                            <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisqus velit nisi,
+                                pretium
+                                ut
+                                lacinia in, elementum id enim. Donec sollicitudin</p>
+                        </div>
+                        <div class="bloc-shadow p-3 mt-2">
+                            <p class="text-left">HTML</p>
+                            <div class="fond-progress">
+                                <div class="niveau90"></div>
+                            </div>
+                            <p class="text-left">CSS</p>
+                            <div class="fond-progress">
+                                <div class="niveau90"></div>
+                            </div>
+                            <p class="text-left">JavaScript</p>
+                            <div class="fond-progress">
+                                <div class="niveau60"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--__________________Catégorie 4____________________-->
+                    <div class="col-lg-3 col-md-6 col-12 p-2">
+                        <div class="media-modif-p1 bloc-shadow p-3">
+                            <img src="image/telephone_developpement_appli.png" alt="Développement application">
+                            <h3 class="h3-p1">Developpement d'appli</h3>
+                            <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisqus velit nisi,
+                                pretium
+                                ut
+                                lacinia in, elementum id enim. Donec sollicitudin</p>
+                        </div>
+                        <div class="bloc-shadow p-3 mt-2">
+                            <p class="text-left">PHP</p>
+                            <div class="fond-progress">
+                                <div class="niveau60"></div>
+                            </div>
+                            <p class="text-left">SQL</p>
+                            <div class="fond-progress">
+                                <div class="niveau60"></div>
+                            </div>
+                            <p class="text-left">Café</p>
+                            <div class="fond-progress">
+                                <div class="niveau100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--__________________Nombre créations____________________-->
+            <div class="fond-p2 mt-5 full-div">
+                <div class="container">
+                    <div class="row haut-p2">
+                        <!--__________________Bloc 1____________________-->
+                        <div class="col-lg-3 col-md-6 col-12 px-2 my-2 my-md-auto">
+                            <div class="custom-rea-p2 py-2">
+                                <p class="p-md-0 m-0 text1-p2">800</p>
+                                <p class="p-md-0 m-0 text2-p2">Designs créés</p>
+                            </div>
+                        </div>
+                        <!--__________________Bloc 2____________________-->
+                        <div class="col-lg-3 col-md-6 col-12 px-2 my-2 my-md-auto">
+                            <div class="custom-rea-p2 py-2">
+                                <p class="p-md-0 m-0 text1-p2">400</p>
+                                <p class="p-md-0 m-0 text2-p2">Sites créés</p>
+                            </div>
+                        </div>
+                        <!--__________________Bloc 3____________________-->
+                        <div class="col-lg-3 col-md-6 col-12 px-2 my-2 my-md-auto">
+                            <div class="custom-rea-p2 py-2">
+                                <p class="p-md-0 m-0 text1-p2">200</p>
+                                <p class="p-md-0 m-0 text2-p2">Pages codées</p>
+                            </div>
+                        </div>
+                        <!--__________________Bloc 4____________________-->
+
+                        <div class="col-lg-3 col-md-6 col-12 px-2 my-2 my-md-auto">
+                            <div class="custom-rea-p2 py-2">
+                                <p class="p-md-0 m-0 text1-p2">50</p>
+                                <p class="p-md-0 m-0 text2-p2">Applications créées</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--__________________Partie 2____________________-->
+            <!--___________________Portfolio_______________________-->
+
+
+            <div class="text-center">
+                <img class="illu-tool" src="image/services_web.png" alt="illustration" id="portfolio">
+                <h2 class="text-center">Notre Portfolio</h2>
+                <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut
+                    lacinia in, elementum id enim. Donec sollicitudin molestie malesuada</p>
+            </div>
+
+            <!--________________Blocs__________________________-->
+            <div class="container d-none d-lg-block">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="row">
+                            <div class="col-6 mt-5 pr-0">
+                                <p class="bord-p3 py-2 text-center">Graphique</p>
+                            </div>
+                            <div class="col-6 mt-5 pl-0">
+                                <p class="bord-p3 py-2 text-center">Web</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <img class="logo-noir mt-4 mx-auto" src="image/logo_noir.png" src="logo noir">
+                    </div>
+                    <div class="col-5">
+                        <div class="row">
+                            <div class="col-6 mt-5 pr-0">
+                                <p class="bord-p3 py-2 text-center">Graphique</p>
+                            </div>
+                            <div class="col-6 mt-5 pl-0">
+                                <p class="bord-p3 py-2 text-center">Web</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="row d-lg-none">
+                        <div class="col-6 pr-0">
+                            <p class="bord-p3 py-2 mt-5 ml-5 text-center">Graphique</p>
+                        </div>
+                        <div class="col-6 pl-0">
+                            <p class="bord-p3 py-2 mt-5 mr-5 text-center">Web</p>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-12 col-md-6 col-lg-4 bloc-pf-b"></div>
+                        <div class="col-12 col-md-6 col-lg-4 bloc-pf-g"></div>
+                        <div class="col-12 col-md-12 col-lg-4 bloc-pf-b"></div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="row d-lg-none">
+                        <div class="col-6 pr-0">
+                            <p class="bord-p3 py-2 mt-5 ml-5 text-center">Graphique</p>
+                        </div>
+                        <div class="col-6 pl-0">
+                            <p class="bord-p3 py-2 mt-5 mr-5 text-center">Web</p>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-12 col-md-6 col-lg-4 bloc-pf-g"></div>
+                        <div class="col-12 col-md-6 col-lg-4 bloc-pf-b"></div>
+                        <div class="col-12 col-md-12 col-lg-4 bloc-pf-g"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="" style="margin-right: -15px; margin-left: -15px; background: red;">
+                sdfsdf qsdf qsfd qfds 
+
+            </div> -->
+
+            <!--_________________Video Bouton___________________-->
+            <!-- margins négatives pour compenser les paddings de main.container-fluid -->
+            <div class="fond-p2 mt-5 full-div">
+                <div class="container">
+                    <div class="haut-p2 position-relative" style="text-align: center">
+                        <input class="video-bouton" type="button" value="Visionnez nos videos">
+                    </div>
+                </div>
+            </div>
+
+            <!--_______________________Partie 3_____________________-->
+            <div class="text-center">
+                <img class="illu-tool" src="image/services_web.png" alt="illustration" id="equipe">
+                <h2>L'équipe</h2>
+                <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut
+                    lacinia in, elementum id enim. Donec sollicitudin molestie malesuada</p>
+            </div>
+            <!--__________________Bloc 1____________________-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="bloc-shadow">
+                            <div>
+                                <img class="mx-auto photo-p3" src="image/inconnu.jpg" alt="photo inconnu">
+                            </div>
+                            <div class="fond-gris">
+                                <p class="text-size-1-2em color-orange text-center py-2">Winnie l'ourson</p>
+                            </div>
+                            <div>
+                                <p class="text-center pt-1 pb-3 px-3">Vestibulum ac diam sit amet quam vehicula
+                                    elementum
+                                    sed sit amet dui. Quisque velit nisi,
+                                    pretium
+                                    ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--__________________Bloc 2____________________-->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="bloc-shadow">
+                            <div>
+                                <img class="mx-auto photo-p3" src="image/inconnu.jpg" alt="photo inconnu">
+                            </div>
+                            <div class="fond-gris">
+                                <p class="text-size-1-2em color-orange text-center py-2">Hercule Poireau</p>
+                            </div>
+                            <div>
+                                <p class="text-center pt-1 pb-3 px-3">Vestibulum ac diam sit amet quam vehicula
+                                    elementum
+                                    sed sit amet dui. Quisque velit nisi,
+                                    pretium
+                                    ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--__________________Bloc 3____________________-->
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="bloc-shadow">
+                            <div>
+                                <img class="mx-auto photo-p3" src="image/inconnu.jpg" alt="photo inconnu">
+                            </div>
+                            <div class="fond-gris">
+                                <p class="text-size-1-2em color-orange text-center py-2">Jack Sparrow</p>
+                            </div>
+                            <div>
+                                <p class="text-center pt-1 pb-3 px-3">Vestibulum ac diam sit amet quam vehicula
+                                    elementum
+                                    sed sit amet dui. Quisque velit nisi,
+                                    pretium
+                                    ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--__________________Bloc 4____________________-->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="bloc-shadow">
+                            <div>
+                                <img class="mx-auto photo-p3" src="image/inconnu.jpg" alt="photo inconnu">
+                            </div>
+                            <div class="fond-gris">
+                                <p class="text-size-1-2em color-orange text-center py-2">Dark Vador</p>
+                            </div>
+                            <div>
+                                <p class="text-center pt-1 pb-3 px-3">Vestibulum ac diam sit amet quam vehicula
+                                    elementum
+                                    sed sit amet dui. Quisque velit nisi,
+                                    pretium
+                                    ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--__________________Partie 4____________________-->
+            <div class="fond-p2 mt-4 position-relative d-md-none">
+                <img src="image/logo.png" alt="logo" class="logo-blanc">
+            </div>
+            <div class="fond-orange my-5 full-div">
+                <div class="container">
+                    <div class="row">
+                        <!--__________________Bloc 1____________________-->
+                        <div class="col-12 col-md-6">
+                            <div class="fond-gris py-4 px-5 mb-4">
+                                <p class="color-white">Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor
+                                    sit
+                                    amet, consectetur
+                                    adipiscing elit. Proin eget tortor risus. Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing
+                                    elit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus
+                                    magna
+                                    justo, lacinia eget consectetur sed, convallis at tellus. Curabitur non nulla sit
+                                    amet
+                                    nisl
+                                    tempus convallis quis ac lectus. Nulla quis lorem ut libero malesuada feugiat.
+                                    Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Proin eget tortor risus. Lorem ipsum dolor sit amet, consectetuquis
+                                    ac
+                                    lectus. Nulla quis lorem ut libero malesuada feugiat.</p>
+                            </div>
+                            <div class="mt-5 mx-5">
+                                <p class="text-center">“Proin eget tortor risus. Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit.
+                                    Curabisl
+                                    tempus convallis justo, lacinia eget malesuada feugiat”</p>
+                                <p class="font-weight-bold font-italic">John Doe</p>
+                            </div>
+                        </div>
+                        <!--__________________Bloc 2____________________-->
+                        <div class="col-12 col-md-6">
+                            <div class="mt-5 mx-5 d-none d-md-block">
+                                <p class="text-center">“Proin eget tortor risus. Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit.
+                                    Curabisl
+                                    tempus convallis justo, lacinia eget malesuada feugiat”</p>
+                                <p class="font-weight-bold font-italic">John Doe</p>
+                            </div>
+                            <div class="fond-gris py-4 px-5 mt-5">
+                                <p class="color-white">Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor
+                                    sit
+                                    amet, consectetur
+                                    adipiscing elit. Proin eget tortor risus. Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing
+                                    elit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus
+                                    magna
+                                    justo, lacinia eget consectetur sed, convallis at tellus. Curabitur non nulla sit
+                                    amet
+                                    nisl
+                                    tempus convallis quis ac lectus. Nulla quis lorem ut libero malesuada feugiat.
+                                    Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Proin eget tortor risus. Lorem ipsum dolor sit amet, consectetuquis
+                                    ac
+                                    lectus. Nulla quis lorem ut libero malesuada feugiat.</p>
+                            </div>
+                            <div class="mt-5 mx-5 d-md-none">
+                                <p class="text-center">“Proin eget tortor risus. Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit.
+                                    Curabisl
+                                    tempus convallis justo, lacinia eget malesuada feugiat”</p>
+                                <p class="font-weight-bold font-italic">John Doe</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="fond-gris py-5">
+        <div class="container">
+            <div class="row color-white">
+                <div class="col-6 col-md-6">
+                    <img class="logo-footer mb-3 d-none d-md-block" src="image/logo.png" alt="logo" id="bas">
+                    <p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed,
+                        convallis
+                        at tellus.
+                        Pellentesque in ipsum id orci porta dapibus.</p>
+                    <p>Created by Gala</p>
+                    <p> © 2017 - Sparkle.Inc</p>
+                </div>
+                <div class="col-6 d-md-none">
+                    <h3 class="color-orange">Nos réseaux</h3>
+                    <p>Get in touch with us via mail phone. We are waiting for
+                        your call or message</p>
+                    <input class="d-md-none mx-auto my-3 py-1 py-md-2 px-2 px-md-4 header-bouton" type="button"
+                        value="Contact">
+                </div>
+                <div class="col-6 col-md-3">
+                    <h3 class="color-orange">Liens</h3>
+                    <a class="url-footer mb-3" href="url">Accueil</a>
+                    <a class="url-footer mb-3" href="url">Nos services</a>
+                    <a class="url-footer mb-3" href="url">Portfolio</a>
+                    <a class="url-footer mb-3" href="url">A propos</a>
+                    <a class="url-footer mb-3" href="url">Support</a>
+                    <a class="url-footer mb-3" href="url">CGU</a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h3 class="color-orange">Contact</h3>
+                    <a class="url-footer mb-3" href="url">S'inscrire</a>
+                    <a class="url-footer mb-3" href="url">Se connecter</a>
+                    <a class="url-footer mb-3" href="url">A propos de nous</a>
+                    <a class="url-footer mb-3" href="url">Blog</a>
+                    <a class="url-footer mb-3" href="url">Nous contacter</a>
+                    <a href="mailto:web.biancog@gmail.com" class="mail-foot"><input class="d-none d-md-block py-1 px-3 my-3 header-bouton" type="button" value="Nous contacter"></a>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="d-none d-md-block">
+                        <h3 class="color-orange">Nos réseaux</h3>
+                        <p>Get in touch with us via mail phone. We are waiting for
+                            your call or message</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mt-3 mt-md-5">
+                    <div class="row ml-md-3">
+                        <div class="col-3"><i class="icon-foot fab fa-facebook-square"><a href="url"></a></i></div>
+                        <div class="col-3"><i class="icon-foot fab fa-linkedin"><a href="url"></a></i></div>
+                        <div class="col-3"><i class="icon-foot fab fa-instagram"><a href="url"></a></i></div>
+                        <div class="col-3"><i class="icon-foot fab fa-youtube"><a href="url"></a></i></div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
